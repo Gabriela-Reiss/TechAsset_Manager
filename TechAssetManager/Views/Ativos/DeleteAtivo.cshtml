@@ -1,0 +1,65 @@
+﻿@model TechAssetManager.Models.Ativo
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="p-4 shadow-sm" style="border: 1px solid #ccc; border-radius: 10px; width: 500px;">
+
+        <h3 class="text-center mb-2 text-danger">Excluir Ativo</h3>
+        <p class="text-center text-muted mb-4">
+            Essa ação não poderá ser desfeita. Confirme para continuar.
+        </p>
+
+        <div class="mb-3">
+            <strong>Produto:</strong> @Model.Nome
+        </div>
+
+        <dl class="row mb-4">
+            <dt class="col-sm-5">Número de Série</dt>
+            <dd class="col-sm-7">@Model.NumeroSerie</dd>
+
+            <dt class="col-sm-5">Data de Aquisição</dt>
+            <dd class="col-sm-7">
+                @Model.DataAquisicao.ToString("dd/MM/yyyy")
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold">
+                    Confirma a exclusão deste ativo?
+                </label>
+                <select id="confirmacao" class="form-select">
+                    <option value="">Selecione</option>
+                    <option value="nao">Não, cancelar</option>
+                    <option value="sim">Sim, desejo excluir</option>
+                </select>
+            </div>
+
+            <div class="d-flex justify-content-center gap-2 mt-4">
+                <button id="btnExcluir"
+                        type="submit"
+                        class="btn btn-danger"
+                        disabled>
+                    Excluir
+                </button>
+
+                <a asp-action="ListagemAtivos" class="btn btn-outline-secondary">
+                    Voltar
+                </a>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const selectConfirmacao = document.getElementById("confirmacao");
+        const btnExcluir = document.getElementById("btnExcluir");
+
+        selectConfirmacao.addEventListener("change", function () {
+            btnExcluir.disabled = this.value !== "sim";
+        });
+    </script>
+}

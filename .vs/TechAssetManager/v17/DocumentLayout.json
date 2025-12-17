@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\home\\initial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\home\\initial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Initial.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T20:37:53.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\appsettings.json",
+              "RelativeDocumentMoniker": "TechAssetManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\appsettings.json",
+              "RelativeToolTip": "TechAssetManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-17T20:36:04.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

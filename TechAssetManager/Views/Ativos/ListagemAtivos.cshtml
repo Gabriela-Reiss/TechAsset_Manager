@@ -1,0 +1,104 @@
+﻿@model IEnumerable<TechAssetManager.Models.Ativo>
+@{
+    ViewBag.Title = "Listagem de Ativos";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 style="font-weight:600; color:#1e293b;">
+            Ativos
+        </h2>
+
+        <a asp-action="CreateAtivo"
+           class="btn"
+           style="border:1px solid #1e3a8a; color:#000; font-weight:500;">
+            <img src="~/img/plus-circle.svg" width="18" class="me-1" />
+            Novo Ativo
+        </a>
+    </div>
+
+    <div style="
+        background:#ffffff;
+        border-radius:8px;
+        box-shadow:0 4px 12px rgba(0,0,0,0.05);
+        overflow:hidden;
+    ">
+        <table class="table table-hover mb-0">
+
+            <thead>
+                <tr style="background-color:#1e3a8a; color:white;">
+                    <th style="padding:14px;">Nome</th>
+                    <th style="padding:14px;">Categoria</th>
+                    <th style="padding:14px;">Número de Série</th>
+                    <th style="padding:14px;">Data de Aquisição</th>
+                    <th style="padding:14px;">Valor</th>
+                    <th style="padding:14px; text-align:center; width:140px;">
+                        Ações
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var ativo in Model)
+                {
+                    <tr style="border-bottom:1px solid #e5e7eb;">
+                        <td style="padding:12px; font-weight:500;">
+                            @ativo.Nome
+                        </td>
+
+                        <td style="padding:12px; color:#475569;">
+                            @ativo.Categoria?.Nome
+                        </td>
+
+                        <td style="padding:12px;">
+                            @ativo.NumeroSerie
+                        </td>
+
+                        <td style="padding:12px;">
+                            @ativo.DataAquisicao.ToString("dd/MM/yyyy")
+                        </td>
+
+                        <td style="padding:12px;">
+                            R$ @ativo.Valor.ToString("N2")
+                        </td>
+
+                        <td style="padding:12px; text-align:center;">
+                            <a asp-action="EditAtivo"
+                               asp-route-id="@ativo.Id"
+                               class="btn btn-sm"
+                               style="
+                                       border:1px solid #1e3a8a;
+                                       color:#1e3a8a;
+                                       background-color:transparent;
+                                       margin-right:4px;
+                                   ">
+                                <img src="~/img/edit.svg" width="16" />
+                            </a>
+
+                            <a asp-action="DeleteAtivo"
+                               asp-route-id="@ativo.Id"
+                               class="btn btn-sm"
+                               style="
+                                       border:1px solid #dc2626;
+                                       color:#dc2626;
+                                       background-color:transparent;
+                                   ">
+                                <img src="~/img/trash-2.svg" width="16" />
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+    <a asp-controller="Home"
+       asp-action="Initial"
+       class="btn mt-5"
+       style="border: 1px solid #1e3a8a; color:#000; font-weight:500;">
+        <img src="~/img/seta.svg" />
+        Voltar
+    </a>
+
+</div>

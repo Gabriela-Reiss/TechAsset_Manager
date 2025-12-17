@@ -1,0 +1,56 @@
+﻿@model TechAssetManager.Models.Categoria;
+@{
+    ViewBag.Title = "Nova Categoria";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="p-4" style="border: 1px solid #000; border-radius: 10px; width: 400px;">
+
+        <h1 class="text-center mb-1">Nova Categoria</h1>
+        <p class="text-center text-muted mb-3">
+            Preencha os dados para registrar uma nova Categoria
+        </p>
+
+        <form asp-action="CreateCategoria" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" type="text" class="form-control" placeholder="Insira o nome" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" type="text" class="form-control" placeholder="Detalhe a categoria" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-center gap-2">
+                <input type="submit"
+                       value="Salvar"
+                       class="btn"
+                       style="
+               background-color:#1e3a8a;
+               color:white;
+               font-weight:500;
+               padding:8px 18px;
+               border-radius:6px;
+           " />
+
+                <a asp-action="ListagemCategorias"
+                   class="btn"
+                   style="
+           background-color:#93c5fd;
+           color:#1e293b;
+           font-weight:500;
+           padding:8px 18px;
+           border-radius:6px;
+       ">
+                    Voltar
+                </a>
+            </div>
+        </form>
+
+    </div>
+</div>

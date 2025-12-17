@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "System";
+}
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-5" style="font-weight:600; color: #1e3a8a;">
+        Conheça o Sistema TechAsset Manager
+    </h2>
+
+    <div class="row justify-content-center gap-4">
+
+       
+        <div class="col-md-5"
+             style="
+                border:1px solid #e5e7eb;
+                border-radius:10px;
+                padding:24px;
+                background-color:#ffffff;
+                box-shadow:0 4px 12px rgba(0,0,0,0.05);
+             ">
+
+            <h4 style="color:#1e3a8a; font-weight:600;">
+                Categorias
+            </h4>
+
+            <p style="color:#475569; margin-top:12px;">
+                As categorias representam os tipos de ativos existentes no sistema,
+                como notebooks, servidores, periféricos e dispositivos de rede.
+                Elas ajudam a organizar e padronizar os registros.
+            </p>
+
+            <div class="mt-4 text-end">
+                <a asp-controller="Categorias"
+                   asp-action="ListagemCategorias"
+                   class="btn"
+                   style="
+                        border:1px solid #1e3a8a;
+                        color:#1e3a8a;
+                        font-weight:500;
+                   ">
+                    Acessar Categorias
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="col-md-5"
+             style="
+                border:1px solid #e5e7eb;
+                border-radius:10px;
+                padding:24px;
+                background-color:#ffffff;
+                box-shadow:0 4px 12px rgba(0,0,0,0.05);
+             ">
+
+            <h4 style="color:#1e3a8a; font-weight:600;">
+                Ativos
+            </h4>
+
+            <p style="color:#475569; margin-top:12px;">
+                Os ativos são os equipamentos cadastrados no sistema,
+                vinculados a uma categoria. Aqui é possível controlar
+                dados como número de série, valor e data de aquisição.
+            </p>
+
+            <div class="mt-4 text-end">
+                <a asp-controller="Ativos"
+                   asp-action="ListagemAtivos"
+                   class="btn"
+                   style="
+                        border:1px solid #1e3a8a;
+                        color:#1e3a8a;
+                        font-weight:500;
+                   ">
+                    Acessar Ativos
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>

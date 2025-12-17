@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\home\\initial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\home\\initial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\ativos\\listagemativos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\ativos\\listagemativos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\categorias\\listagemcategorias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\categorias\\listagemcategorias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\wwwroot\\img\\seta.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\wwwroot\\img\\seta.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|c:\\users\\gabis\\source\\repos\\techassetmanager\\techassetmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF32906-0B90-4620-B62D-6D19E8E2D2AC}|TechAssetManager\\TechAssetManager.csproj|solutionrelative:techassetmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "seta.svg",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\wwwroot\\img\\seta.svg",
+              "RelativeDocumentMoniker": "TechAssetManager\\wwwroot\\img\\seta.svg",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\wwwroot\\img\\seta.svg",
+              "RelativeToolTip": "TechAssetManager\\wwwroot\\img\\seta.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABeAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-12-17T20:31:38.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListagemAtivos.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Ativos\\ListagemAtivos.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Ativos\\ListagemAtivos.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Ativos\\ListagemAtivos.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Ativos\\ListagemAtivos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T20:22:36.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListagemCategorias.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Categorias\\ListagemCategorias.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Categorias\\ListagemCategorias.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Categorias\\ListagemCategorias.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Categorias\\ListagemCategorias.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T20:19:53.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Initial.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Home\\Initial.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T17:49:17.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TechAssetManager\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TechAssetManager\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:48:41.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T17:45:42.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechAssetManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabis\\source\\repos\\TechAssetManager\\TechAssetManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TechAssetManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T17:45:31.899Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
